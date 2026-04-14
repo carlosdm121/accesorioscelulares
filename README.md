@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 CelShop - Tienda de Accesorios para Celulares
 
-## Getting Started
+Una plataforma de e-commerce moderna, rápida y elegante diseñada para la venta de accesorios de dispositivos móviles. Este proyecto se enfoca en ofrecer una experiencia de usuario fluida con un diseño "Mobile First" y componentes altamente optimizados.
 
-First, run the development server:
+## 🚀 Tecnologías Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+El proyecto fue construido utilizando las últimas tecnologías del ecosistema de desarrollo web:
+
+*   **[Next.js 15+](https://nextjs.org/)**: Framework de React con App Router para una navegación instantánea y optimización SEO.
+*   **[React 19](https://react.dev/)**: La última versión de la biblioteca UI líder en la industria.
+*   **[Tailwind CSS v4](https://tailwindcss.com/)**: Para un diseño responsivo, moderno y altamente personalizable.
+*   **[TypeScript](https://www.typescriptlang.org/)**: Tipado estricto para asegurar la robustez y escalabilidad del código.
+*   **[Lucide React](https://lucide.dev/)**: Set de iconos elegantes y consistentes.
+*   **Next/Image**: Optimización automática de imágenes para tiempos de carga mínimos.
+
+## ✨ Características Principales
+
+*   **Diseño Responsivo Pro**: Adaptado perfectamente para móviles, tablets y escritorio.
+*   **Arquitectura Limpia**: Código organizado siguiendo principios SOLID y patrones de diseño modernos.
+*   **Catálogo Dinámico**: Grid de productos con filtrado por categorías y detalles visuales pulidos.
+*   **Pasarela de Pagos Visual**: Sección dedicada a medios de pago (Visa, Mastercard, Mercado Pago, Go Cuotas, etc.) con logos integrados.
+*   **Formulario de Pedido**: Sistema integrado para la gestión de pedidos de clientes.
+*   **Dark Mode Support**: Soporte nativo para temas claros y oscuros respetando las preferencias del sistema.
+*   **Optimización de Assets**: Todas las imágenes son servidas localmente desde el servidor para mayor fiabilidad.
+
+## 🛠️ Estructura del Proyecto
+
+```text
+src/
+├── app/             # Rutas y diseño global (App Router)
+├── components/      # Componentes de UI desacoplados (Header, Hero, Products, Payments)
+├── constants/       # Datos estáticos y configuraciones de productos
+├── types/           # Definiciones de interfaces TypeScript
+└── public/          # Imágenes locales y assets estáticos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Instalación y Desarrollo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  Clona el repositorio:
+    ```bash
+    git clone https://github.com/carlosdm121/accesorioscelulares.git
+    ```
+2.  Instala las dependencias:
+    ```bash
+    npm install
+    ```
+3.  Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+4.  Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 Licencia
 
-## Learn More
+Este proyecto es de uso libre bajo la licencia MIT.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Desarrollado con ❤️ para CelShop*
