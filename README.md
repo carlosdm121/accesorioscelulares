@@ -2,6 +2,14 @@
 
 Una plataforma de e-commerce moderna, rápida y elegante diseñada para la venta de accesorios de dispositivos móviles. Este proyecto se enfoca en ofrecer una experiencia de usuario fluida con un diseño "Mobile First" y componentes altamente optimizados.
 
+---
+
+## 🚀 Demo
+
+[![Ver Demo](https://img.shields.io/badge/VER%20DEMO-ONLINE-green?style=for-the-badge)](https://accesorioscelulares.vercel.app/)
+
+---
+
 ## 🚀 Tecnologías Utilizadas
 
 El proyecto fue construido utilizando las últimas tecnologías del ecosistema de desarrollo web:
